@@ -1,51 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eigene Webseite von RJ</title>
-     
+    <title>Eigene Webseite von Romeo</title>
+
     <style>
-        header h1{
+        header h1 {
             padding: 10px;
             background-color: lightgreen;
             border: 5px solid;
             border-color: orange;
             border-style: dashed;
         }
+
         body {
             font-family: 'Times New Roman', Times, serif;
             padding: 10px;
-            
+
         }
-        main{
+
+        main {
             padding: 20px;
             background-color: darkolivegreen;
             border: 5px double;
-            border-color: wheat;
+            border-color: rgb(230, 156, 17);
+        }
+
+        a:link {
+            color: olivedrab;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: orchid;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(153, 85, 51);
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: wheat;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        #motto {
+            margin-top: 20px;
+            padding: 10px;
+            border: 3px dotted navy;
+            background-color: lightblue;
+            font-style: comic sans ms;
+        }
+        #Menu {
+            text-align: right;
+            margin-top: 20px;
+            padding: 10px;
+            border: 3px solid black;
+            background-color: lightgray;
         }
     </style>
-   
-    
+
 </head>
+
 <body>
     <header>
-         <h1>Hauptseite meiner Webseite</h1>
+        <h1>Hauptseite meiner Webseite</h1>
     </header>
 
     <main>
-        <p>Auf dieser Webseite erzähle ich einiges über mich.</p>
-        <br>
-        <p>Das bin ich:</p>
+        <div id="bild-text">
 
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Rufus_Kim_Possible.png" alt="">
+            <h2>Über mich</h2>
+            <p>Auf dieser Webseite erzähle ich einiges über mich. Ich bin ein leidenschaftlicher Programmierer und
+                interessiere mich für neue Technologien.</p>
 
-        <p>Und das ist mein Motto:</p>
+            <p><strong>Meine Interessen:</strong></p>
+            <!-- abstand\t -->
+             <!-- li sind aufzählungen mit punkt -->
+            <ul>
+                <li>Programmieren (HTML, CSS, JavaScript)</li>
+                <li>Webentwicklung</li>
+                <li>Gaming</li>
+                <li>Neue Technologien erkunden</li>
+            </ul>
 
-        <blockquote>
-            Always remember they can´t outsmart you if you´re not smart.
-        </blockquote>
+
+
+            <p>Auf dieser Webseite erzähle ich einiges über mich.</p>
+            <br>
+            <p>Das bin ich:</p>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Rufus_Kim_Possible.png" alt="Rufus_Kim_Possible"
+                title="Das bin ich - Rufus aus Kim Possible.">
+
+        </div>
+
+
+        <h2>Und das ist mein Motto:</h2>
+
+        <div id="motto">
+            
+
+            <h4>Always remember they can´t outsmart you if you´re not smart.</h4>
+            
+        </div>
+
+
+        </div>
     </main>
-   
+
+
+
+
+
+    <footer>
+
+
+        <div id="Menu">
+            <p>Romeo Aguilo</p>
+            <p>HTL-St.Johann<p/>
+            <br>
+            <a href="index.html">Menu haha</a>
+            <br>
+            <a href="RomeoMusterman@gmail.com">RomeoMusterman@gmail.com</a>
+            <br>
+
+        </div>
+    </footer>
 </body>
+
 </html>
